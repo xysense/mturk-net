@@ -17,9 +17,9 @@ namespace MTurk.DTO.Internals {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/Quest" +
         "ionFormAnswers.xsd")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/Quest" +
@@ -42,9 +42,9 @@ namespace MTurk.DTO.Internals {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/Quest" +
         "ionFormAnswers.xsd")]
     public partial class QuestionFormAnswersAnswer {
@@ -96,7 +96,7 @@ namespace MTurk.DTO.Internals {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/Quest" +
         "ionFormAnswers.xsd", IncludeInSchema=false)]
     public enum ItemsChoiceType {

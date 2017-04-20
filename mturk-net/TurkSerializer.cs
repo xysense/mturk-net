@@ -6,9 +6,8 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web;
-using System.Xml;
 using System.Xml.Serialization;
+using System.Net;
 
 namespace MTurk
 {
@@ -23,7 +22,7 @@ namespace MTurk
 
         public static string ToQueryString(this NameValueCollection collection, bool urlEncode = true)
         {
-            return string.Join("&", collection.AllKeys.Select(a => a + "=" + (urlEncode ? HttpUtility.UrlEncode(collection[a]) : collection[a])));
+            return string.Join("&", collection.AllKeys.Select(a => a + "=" + (urlEncode ? WebUtility.UrlEncode(collection[a]) : collection[a])));
         }
         public static NameValueCollection Collect(object obj)
         {
@@ -39,7 +38,7 @@ namespace MTurk
 
         public static class Internals
         {
-            private static readonly IDictionary<Type, MethodInfo> Convertibles = typeof(Convert).GetMethods(BindingFlags.Public | BindingFlags.Static)
+            private static readonly IDictionary<Type, MethodInfo> Convertibles = typeof(Convert).GetRuntimeMethods()//BindingFlags.Public | BindingFlags.Static)
                     .Where(x => x.Name == "ToString" && x.GetParameters().Length == 1 && x.GetParameters()[0].ParameterType != typeof(object))
                     .ToDictionary(x => x.GetParameters()[0].ParameterType, x => x);
 
@@ -79,7 +78,7 @@ namespace MTurk
                     return;
                 }
 
-                var props = type.GetProperties(BindingFlags.Public | BindingFlags.Instance).Where(x => x.CanRead);
+                var props = type.GetRuntimeProperties()/*BindingFlags.Public | BindingFlags.Instance)*/.Where(x => x.CanRead);
                 if (props.Any(x => x.CanWrite)) props = props.Where(x => x.CanWrite);
                 var keyvalues = props.Select(x => new { Property = x, Value = x.GetValue(obj) });
                 foreach (var kv in keyvalues)
@@ -96,5 +95,17 @@ namespace MTurk
                 }
             }
         }
+    }
+
+    public class NameValueCollection : Dictionary<string, string>
+    {
+        public IEnumerable<string> AllKeys { get {return Keys; }}
+    }
+
+    public static class TypeExtensions
+    {
+        public static bool IsInstanceOfType(this Type type, object obj){
+        return obj != null && type.GetTypeInfo().IsAssignableFrom(obj.GetType().GetTypeInfo());
+}
     }
 }

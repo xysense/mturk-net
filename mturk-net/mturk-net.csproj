@@ -1,132 +1,27 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33B0C0EE-40A1-4ED7-9B8B-C09636C33FAD}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MTurk</RootNamespace>
-    <AssemblyName>mturk-net</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <NuGetPackageImportStamp>6cb85cd3</NuGetPackageImportStamp>
+    <TargetFramework>netstandard1.4</TargetFramework>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="SgmlReaderDll">
-      <HintPath>..\packages\SgmlReader.1.8.11\lib\4.0\SgmlReaderDll.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Collections.Immutable">
-      <HintPath>..\packages\Microsoft.Bcl.Immutable.1.0.34\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Core" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Net.Http.Extensions">
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http.Primitives">
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http.WebRequest" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
+  <ItemGroup>&#xD;
+    &#xD;
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreateHIT.cs" />
-    <Compile Include="DTO\AnswerKey.cs">
-      <DependentUpon>AnswerKey.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DTO\ExternalQuestion.cs">
-      <DependentUpon>ExternalQuestion.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DTO\HTMLQuestion.cs">
-      <DependentUpon>HTMLQuestion.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DTO\IQuestion.cs" />
-    <Compile Include="DTO\QuestionForm.cs">
-      <DependentUpon>QuestionForm.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DTO\QuestionFormAnswers.cs">
-      <DependentUpon>QuestionFormAnswers.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DTO\RestHeader.cs" />
-    <Compile Include="Operations.generated.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Operations.tt</DependentUpon>
-    </Compile>
-    <Compile Include="StringExtensions.cs" />
-    <Compile Include="TurkClient.cs" />
-    <Compile Include="TurkSerializer.cs" />
-    <Compile Include="DTO\AWSMechanicalTurkRequester.cs">
-      <DependentUpon>AWSMechanicalTurkRequester.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Operations.tt"/>
+    <Content Include="StringExtensions.cs"/>
+    <Content Include="TurkClient.cs"/>
+    <Content Include="TurkSerializer.cs"/>
+    <Content Include="CreateHIT.cs"/>
+    <Content Include="DTO\AnswerKey.cs"/>
+    <Content Include="DTO\AWSMechanicalTurkRequester.cs"/>
+    <Content Include="DTO\ExternalQuestion.cs"/>
+    <Content Include="DTO\HTMLQuestion.cs"/>
+    <Content Include="DTO\IQuestion.cs"/>
+    <Content Include="DTO\QuestionForm.cs"/>
+    <Content Include="DTO\QuestionFormAnswers.cs"/>
+    <Content Include="DTO\RestHeader.cs"/>
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0"/>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="DTO\AnswerKey.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DTO\AWSMechanicalTurkRequester.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DTO\ExternalQuestion.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DTO\HTMLQuestion.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DTO\QuestionForm.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DTO\QuestionFormAnswers.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Operations.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Operations.generated.cs</LastGenOutput>
-    </None>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
-  </Target>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

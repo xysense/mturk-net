@@ -55,3 +55,4 @@ Downloaded Profiling Logs/*
 Visual Studio 2013/*
 src/Web/Scripts/Hubs.js
 **/Credentials.cs
+.vscode

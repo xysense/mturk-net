@@ -17,9 +17,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class CreateHIT {
@@ -100,9 +100,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class CreateHITRequest {
         
@@ -367,9 +367,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class Price {
         
@@ -412,9 +412,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class UnblockWorkerResult {
         
@@ -433,9 +433,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class Request {
@@ -948,9 +948,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class RegisterHITTypeRequest {
         
@@ -1068,9 +1068,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class QualificationRequirement {
         
@@ -1152,7 +1152,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum Comparator {
         
@@ -1189,9 +1189,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class Locale {
         
@@ -1210,9 +1210,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class DisposeHITRequest {
         
@@ -1244,9 +1244,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class DisableHITRequest {
         
@@ -1278,9 +1278,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetHITRequest {
         
@@ -1312,9 +1312,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetAssignmentRequest {
         
@@ -1346,9 +1346,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetReviewResultsForHITRequest {
         
@@ -1493,7 +1493,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum ReviewPolicyLevel {
         
@@ -1506,9 +1506,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetReviewableHITsRequest {
         
@@ -1665,7 +1665,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum ReviewableHITStatus {
         
@@ -1678,7 +1678,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum SortDirection {
         
@@ -1691,7 +1691,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum GetReviewableHITsSortProperty {
         
@@ -1713,9 +1713,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetHITsForQualificationTypeRequest {
         
@@ -1797,9 +1797,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetQualificationsForQualificationTypeRequest {
         
@@ -1906,7 +1906,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum QualificationStatus {
         
@@ -1919,9 +1919,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SetHITAsReviewingRequest {
         
@@ -1978,9 +1978,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SearchHITsRequest {
         
@@ -2100,7 +2100,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum SearchHITsSortProperty {
         
@@ -2122,9 +2122,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ExtendHITRequest {
         
@@ -2218,9 +2218,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ForceExpireHITRequest {
         
@@ -2252,9 +2252,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ChangeHITTypeOfHITRequest {
         
@@ -2298,9 +2298,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class CreateQualificationTypeRequest {
         
@@ -2505,7 +2505,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum QualificationTypeStatus {
         
@@ -2518,9 +2518,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class DisposeQualificationTypeRequest {
         
@@ -2539,9 +2539,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GrantQualificationRequest {
         
@@ -2598,9 +2598,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class AssignQualificationRequest {
         
@@ -2694,9 +2694,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class RevokeQualificationRequest {
         
@@ -2752,9 +2752,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetQualificationRequestsRequest {
         
@@ -2886,7 +2886,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum GetQualificationRequestsSortProperty {
         
@@ -2899,9 +2899,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class RejectQualificationRequestRequest {
         
@@ -2945,9 +2945,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetQualificationTypeRequest {
         
@@ -2979,9 +2979,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SearchQualificationTypesRequest {
         
@@ -3150,7 +3150,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum SearchQualificationTypesSortProperty {
         
@@ -3160,9 +3160,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class UpdateQualificationTypeRequest {
         
@@ -3355,9 +3355,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ApproveAssignmentRequest {
         
@@ -3401,9 +3401,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class RejectAssignmentRequest {
         
@@ -3447,9 +3447,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ApproveRejectedAssignmentRequest {
         
@@ -3493,9 +3493,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetAssignmentsForHITRequest {
         
@@ -3640,7 +3640,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum GetAssignmentsForHITSortProperty {
         
@@ -3659,7 +3659,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum AssignmentStatus {
         
@@ -3675,9 +3675,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetFileUploadURLRequest {
         
@@ -3708,9 +3708,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GrantBonusRequest {
         
@@ -3790,9 +3790,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetBonusPaymentsRequest {
         
@@ -3886,9 +3886,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetAccountBalanceRequest {
         
@@ -3920,9 +3920,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class NotifyWorkersRequest {
         
@@ -3979,9 +3979,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetBlockedWorkersRequest {
         
@@ -4051,9 +4051,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class BlockWorkerRequest {
         
@@ -4097,9 +4097,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class UnblockWorkerRequest {
         
@@ -4143,9 +4143,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetRequesterStatisticRequest {
         
@@ -4227,7 +4227,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum RequesterStatistic {
         
@@ -4327,7 +4327,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum TimePeriod {
         
@@ -4346,9 +4346,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetRequesterWorkerStatisticRequest {
         
@@ -4442,9 +4442,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class HelpRequest {
         
@@ -4502,7 +4502,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum HelpRequestHelpType {
         
@@ -4515,9 +4515,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ErrorsError {
         
@@ -4561,9 +4561,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class KeyValuePair {
         
@@ -4594,9 +4594,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class BlockWorkerResult {
         
@@ -4615,9 +4615,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class WorkerBlock {
         
@@ -4648,9 +4648,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetBlockedWorkersResult {
         
@@ -4757,9 +4757,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class NotifyWorkersFailureStatus {
         
@@ -4802,7 +4802,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum NotifyWorkersFailureCode {
         
@@ -4815,9 +4815,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class NotifyWorkersResult {
         
@@ -4849,9 +4849,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class DataPoint {
         
@@ -4920,9 +4920,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetStatisticResult {
         
@@ -5016,9 +5016,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetAccountBalanceResult {
         
@@ -5061,9 +5061,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SearchQualificationTypesResult {
         
@@ -5170,9 +5170,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class QualificationType {
         
@@ -5438,9 +5438,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetQualificationScoreRequest {
         
@@ -5484,9 +5484,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class UpdateQualificationScoreResult {
         
@@ -5505,9 +5505,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class UpdateQualificationScoreRequest {
         
@@ -5576,9 +5576,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class RevokeQualificationResult {
         
@@ -5597,9 +5597,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class AssignQualificationResult {
         
@@ -5618,9 +5618,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GrantQualificationResult {
         
@@ -5639,9 +5639,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class RejectQualificationRequestResult {
         
@@ -5660,9 +5660,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class QualificationRequest {
         
@@ -5741,9 +5741,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetQualificationRequestsResult {
         
@@ -5850,9 +5850,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class DisposeQualificationTypeResult {
         
@@ -5871,9 +5871,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ChangeHITTypeOfHITResult {
         
@@ -5892,9 +5892,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class BonusPayment {
         
@@ -5986,9 +5986,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetBonusPaymentsResult {
         
@@ -6095,9 +6095,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GrantBonusResult {
         
@@ -6116,9 +6116,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SearchHITsResult {
         
@@ -6225,9 +6225,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class HIT {
         
@@ -6629,7 +6629,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum HITStatus {
         
@@ -6651,7 +6651,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum HITReviewStatus {
         
@@ -6670,9 +6670,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetFileUploadURLResult {
         
@@ -6703,9 +6703,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetAssignmentsForHITResult {
         
@@ -6812,9 +6812,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class Assignment {
         
@@ -7068,9 +7068,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ApproveRejectedAssignmentResult {
         
@@ -7089,9 +7089,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class RejectAssignmentResult {
         
@@ -7110,9 +7110,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ApproveAssignmentResult {
         
@@ -7131,9 +7131,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ForceExpireHITResult {
         
@@ -7152,9 +7152,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ExtendHITResult {
         
@@ -7173,9 +7173,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SetHITAsReviewingResult {
         
@@ -7194,9 +7194,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class Qualification {
         
@@ -7326,9 +7326,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetQualificationsForQualificationTypeResult {
         
@@ -7435,9 +7435,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetHITsForQualificationTypeResult {
         
@@ -7544,9 +7544,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ReviewActionDetail {
         
@@ -7662,7 +7662,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum ReviewActionStatus {
         
@@ -7681,9 +7681,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ReviewResultDetail {
         
@@ -7762,9 +7762,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ReviewReport {
         
@@ -7872,9 +7872,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetReviewResultsForHITResult {
         
@@ -7953,9 +7953,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ReviewPolicy {
         
@@ -7987,9 +7987,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class PolicyParameter {
         
@@ -8034,9 +8034,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ParameterMapEntry {
         
@@ -8068,9 +8068,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetReviewableHITsResult {
         
@@ -8177,9 +8177,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class GetAssignmentResult {
         
@@ -8222,9 +8222,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class DisableHITResult {
         
@@ -8243,9 +8243,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class DisposeHITResult {
         
@@ -8264,9 +8264,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SendTestEventNotificationResult {
         
@@ -8285,9 +8285,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SendTestEventNotificationRequest {
         
@@ -8331,9 +8331,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class NotificationSpecification {
         
@@ -8389,7 +8389,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum NotificationTransport {
         
@@ -8408,7 +8408,7 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public enum EventType {
         
@@ -8436,9 +8436,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SetHITTypeNotificationResult {
         
@@ -8457,9 +8457,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class SetHITTypeNotificationRequest {
         
@@ -8515,9 +8515,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class RegisterHITTypeResult {
         
@@ -8548,9 +8548,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class HITLayoutParameter {
         
@@ -8581,9 +8581,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class CreateHITResponse {
@@ -8616,9 +8616,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class OperationRequest {
@@ -8677,9 +8677,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class HTTPHeadersHeader {
         
@@ -8712,9 +8712,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     public partial class ArgumentsArgument {
         
@@ -8747,9 +8747,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class RegisterHITType {
@@ -8830,9 +8830,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class RegisterHITTypeResponse {
@@ -8865,9 +8865,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SetHITTypeNotification {
@@ -8948,9 +8948,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SetHITTypeNotificationResponse {
@@ -8983,9 +8983,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SendTestEventNotification {
@@ -9066,9 +9066,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SendTestEventNotificationResponse {
@@ -9101,9 +9101,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class DisposeHIT {
@@ -9184,9 +9184,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class DisposeHITResponse {
@@ -9219,9 +9219,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class DisableHIT {
@@ -9302,9 +9302,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class DisableHITResponse {
@@ -9337,9 +9337,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetHIT {
@@ -9420,9 +9420,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetHITResponse {
@@ -9455,9 +9455,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetAssignment {
@@ -9538,9 +9538,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetAssignmentResponse {
@@ -9573,9 +9573,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetReviewableHITs {
@@ -9656,9 +9656,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetReviewableHITsResponse {
@@ -9691,9 +9691,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetReviewResultsForHIT {
@@ -9774,9 +9774,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetReviewResultsForHITResponse {
@@ -9809,9 +9809,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetHITsForQualificationType {
@@ -9892,9 +9892,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetHITsForQualificationTypeResponse {
@@ -9927,9 +9927,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetQualificationsForQualificationType {
@@ -10010,9 +10010,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetQualificationsForQualificationTypeResponse {
@@ -10045,9 +10045,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SetHITAsReviewing {
@@ -10128,9 +10128,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SetHITAsReviewingResponse {
@@ -10163,9 +10163,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ExtendHIT {
@@ -10246,9 +10246,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ExtendHITResponse {
@@ -10281,9 +10281,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ForceExpireHIT {
@@ -10364,9 +10364,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ForceExpireHITResponse {
@@ -10399,9 +10399,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ApproveAssignment {
@@ -10482,9 +10482,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ApproveAssignmentResponse {
@@ -10517,9 +10517,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class RejectAssignment {
@@ -10600,9 +10600,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class RejectAssignmentResponse {
@@ -10635,9 +10635,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ApproveRejectedAssignment {
@@ -10718,9 +10718,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ApproveRejectedAssignmentResponse {
@@ -10753,9 +10753,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetAssignmentsForHIT {
@@ -10836,9 +10836,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetAssignmentsForHITResponse {
@@ -10871,9 +10871,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetFileUploadURL {
@@ -10954,9 +10954,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetFileUploadURLResponse {
@@ -10989,9 +10989,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SearchHITs {
@@ -11072,9 +11072,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SearchHITsResponse {
@@ -11107,9 +11107,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GrantBonus {
@@ -11190,9 +11190,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GrantBonusResponse {
@@ -11225,9 +11225,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetBonusPayments {
@@ -11308,9 +11308,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetBonusPaymentsResponse {
@@ -11343,9 +11343,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ChangeHITTypeOfHIT {
@@ -11426,9 +11426,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ChangeHITTypeOfHITResponse {
@@ -11461,9 +11461,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class CreateQualificationType {
@@ -11544,9 +11544,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class CreateQualificationTypeResponse {
@@ -11579,9 +11579,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class DisposeQualificationType {
@@ -11662,9 +11662,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class DisposeQualificationTypeResponse {
@@ -11697,9 +11697,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetQualificationRequests {
@@ -11780,9 +11780,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetQualificationRequestsResponse {
@@ -11815,9 +11815,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class RejectQualificationRequest {
@@ -11898,9 +11898,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class RejectQualificationRequestResponse {
@@ -11933,9 +11933,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GrantQualification {
@@ -12016,9 +12016,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GrantQualificationResponse {
@@ -12051,9 +12051,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class AssignQualification {
@@ -12134,9 +12134,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class AssignQualificationResponse {
@@ -12169,9 +12169,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class RevokeQualification {
@@ -12252,9 +12252,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class RevokeQualificationResponse {
@@ -12287,9 +12287,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class UpdateQualificationScore {
@@ -12370,9 +12370,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class UpdateQualificationScoreResponse {
@@ -12405,9 +12405,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetQualificationType {
@@ -12488,9 +12488,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetQualificationTypeResponse {
@@ -12523,9 +12523,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetQualificationScore {
@@ -12606,9 +12606,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetQualificationScoreResponse {
@@ -12641,9 +12641,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SearchQualificationTypes {
@@ -12724,9 +12724,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class SearchQualificationTypesResponse {
@@ -12759,9 +12759,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class UpdateQualificationType {
@@ -12842,9 +12842,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class UpdateQualificationTypeResponse {
@@ -12877,9 +12877,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetAccountBalance {
@@ -12960,9 +12960,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetAccountBalanceResponse {
@@ -12995,9 +12995,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetRequesterStatistic {
@@ -13078,9 +13078,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetRequesterStatisticResponse {
@@ -13113,9 +13113,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetRequesterWorkerStatistic {
@@ -13196,9 +13196,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetRequesterWorkerStatisticResponse {
@@ -13231,9 +13231,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class NotifyWorkers {
@@ -13314,9 +13314,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class NotifyWorkersResponse {
@@ -13349,9 +13349,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetBlockedWorkers {
@@ -13432,9 +13432,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class GetBlockedWorkersResponse {
@@ -13467,9 +13467,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class BlockWorker {
@@ -13550,9 +13550,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class BlockWorkerResponse {
@@ -13585,9 +13585,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class UnblockWorker {
@@ -13668,9 +13668,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class UnblockWorkerResponse {
@@ -13703,9 +13703,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class HTTPHeaders {
@@ -13726,9 +13726,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class Arguments {
@@ -13749,9 +13749,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class Errors {
@@ -13772,9 +13772,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class Help {
@@ -13856,9 +13856,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class HelpResponse {
@@ -13891,9 +13891,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class Information {
@@ -13939,9 +13939,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class OperationInformation {
@@ -14025,9 +14025,9 @@ namespace MTurk.DTO {
     
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
+
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://requester.mturk.amazonaws.com/doc/2013-11-15", IsNullable=false)]
     public partial class ResponseGroupInformation {

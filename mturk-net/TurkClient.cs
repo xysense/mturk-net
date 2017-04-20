@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
@@ -47,7 +44,7 @@ namespace MTurk
         {
             var hmac = new HMACSHA1(Encoding.ASCII.GetBytes(secretKey));
             var hmacBytes = hmac.ComputeHash(Encoding.ASCII.GetBytes(data));
-            var hmacString = Convert.ToBase64String(hmacBytes, Base64FormattingOptions.None);
+            var hmacString = Convert.ToBase64String(hmacBytes, 0, hmacBytes.Length);// Base64FormattingOptions.None);
             return hmacString;
         }
 
@@ -57,16 +54,6 @@ namespace MTurk
             var hmac = CalculateHMAC(hash, secretKey);
 
             header.Signature = hmac;
-        }
-
-        private class NamespaceIgnorantXmlTextReader : XmlTextReader
-        {
-            public NamespaceIgnorantXmlTextReader(System.IO.TextReader reader) : base(reader) { }
-
-            public override string NamespaceURI
-            {
-                get { return base.NamespaceURI == string.Empty ? "http://requester.mturk.amazonaws.com/doc/2013-11-15" : base.NamespaceURI; }
-            }
         }
 
         private async Task<TResponse> ExecuteRequest<TRequest, TResponse>(TRequest request)
@@ -91,9 +78,17 @@ namespace MTurk
             {
                 result.EnsureSuccessStatusCode();
 
+                var settings = new XmlReaderSettings
+                {
+                    NameTable = new NameTable(),
+                };
+                var xmlns = new XmlNamespaceManager(settings.NameTable);
+                xmlns.AddNamespace("", "http://requester.mturk.amazonaws.com/doc/2013-11-15");
+                var context = new XmlParserContext(null, xmlns, "", XmlSpace.Default);
+  
                 using (var stream = await result.Content.ReadAsStreamAsync())
                 using (var tr = new StreamReader(stream))
-                using (var nsxtr = new NamespaceIgnorantXmlTextReader(tr))
+                using (var nsxtr  = XmlReader.Create(tr, settings, context))
                 {
                     var resp = (TResponse)serializer.Deserialize(nsxtr);
                     return resp;
